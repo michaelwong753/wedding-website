@@ -76,7 +76,7 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-image: url(/img/softpink.png);
+    background-image: url(https://michaelwong753.github.io/wedding-website/img/softpink.png);
 }
 
 .bg-about::before {
@@ -217,7 +217,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(/img/test2.jpg);
+    background-image: url(https://michaelwong753.github.io/wedding-website/img/test2.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;

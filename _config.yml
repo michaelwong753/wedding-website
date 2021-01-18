@@ -4,8 +4,7 @@ collections:
 title: Michael Wong's Website
 email: michaelwong7533@gmail.com
 description: Website about Solar Chapter
-url: "/"
-baseurl: "/"
+url: "https://michaelwong753.github.io/wedding-website"
 twitter_username: mw69
 github_username:  michaelwong753
 plugins:
