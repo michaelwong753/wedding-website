@@ -15,17 +15,23 @@ body {
 }
 
 hr {
-    max-width: 50px;
+    max-width: 45px;
     border-color: #f05f40;
     border-width: 1px;
 }
 
-hr.light {
+hr.title {
+    max-width: 200px;
     border-color: #fff;
+}
+
+
+hr.light {
+    border-color: black;
 }
 hr.heavy{
     max-width: 3000px;
-    border-color: #BF9B30;
+    border-color: #8C4A57;
 }
 
 a {
@@ -76,7 +82,7 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-image: url(https://michaelwong753.github.io/wedding-website/img/softpink.png);
+    background-color: #FCFAFA;
 }
 
 .bg-about::before {
@@ -91,7 +97,7 @@ p {
 
 
 .bg-about  h2 {
-    color:  #BF9B30;
+    color:  #8C4A57;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 400;
@@ -214,10 +220,10 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: 450px;
     text-align: center;
     color: #fff;
-    background-image: url(https://michaelwong753.github.io/wedding-website/img/test2.jpg);
+    background-image: url(/img/test2.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -237,6 +243,8 @@ header::before {
 
 header .header-content {
     position: relative;
+    top: 100%;
+    transform: translateY(-10%);
     width: 100%;
     padding: 100px 15px;
     text-align: center;
@@ -245,19 +253,20 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
-    text-transform: uppercase;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 42px;
 }
 
+
 header .header-content .header-content-inner hr {
-    margin: 30px auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 700;
     color: white;
 }
 
@@ -266,9 +275,17 @@ header .header-content .header-content-inner p {
         min-height: 100%;
     }
 
+    header .header-content .header-content-inner h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 60px;
+    }
+
     header .header-content {
         position: absolute;
-        top: 50%;
+        top: 35%;
+        right: 1%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -285,7 +302,8 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 18px;
+        font-size: 25px;
+        font-weight: 400;
     }
 }
 
@@ -436,8 +454,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
     border-color: #f05f40;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -450,8 +468,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
-    color: #fff;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 
 .btn-primary:active,
