@@ -104,10 +104,16 @@ p {
     color:  #8C4A57;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 400;
-    font-size: 45px;
+    font-weight: 550;
+    font-size: 60px;
 }
 
+.bg-about  p {
+    color:  black;
+}
+.bg-about  h1 {
+    color:  black;
+}
 
 .text-faded {
     color: rgba(255,255,255,.7);
@@ -308,6 +314,10 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 25px;
         font-weight: 400;
+    }
+    .vertical-align {
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -517,6 +527,9 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
 }
 
+.carousel-control{ color: white; width:20%; } 
+.carousel-control.left, .carousel-control.right { background-image: none; } 
+
 .btn-xl {
     padding: 15px 30px;
 }
@@ -560,3 +573,4 @@ video {
 body {
     webkit-tap-highlight-color: #222;
 }
+
