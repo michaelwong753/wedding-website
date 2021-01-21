@@ -86,7 +86,7 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-color: #FCFAFA;
+    background-image: url(https://michaelwong753.github.io/wedding-website/img/bg.jpg);
 }
 
 .bg-about::before {
