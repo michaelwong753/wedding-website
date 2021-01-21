@@ -16,7 +16,7 @@ body {
 }
 
 body {
-    font-family: "Bacalisties";
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -61,7 +61,6 @@ h6 {
 }
 
 p {
-    font-family:"Bacalisties";
     margin-bottom: 20px;
     font-size: 18px;
     line-height: 1.5;
