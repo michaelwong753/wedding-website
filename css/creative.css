@@ -87,6 +87,7 @@ p {
     background-size: cover;
     -o-background-size: cover;
     background-image: url(https://michaelwong753.github.io/wedding-website/img/bg.jpg);
+    background-repeat: no-repeat;
 }
 
 .bg-about::before {
